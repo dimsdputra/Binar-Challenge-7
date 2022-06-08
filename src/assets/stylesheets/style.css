@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1980px;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.container-a {
+  margin: 0 6vw 0 6vw;
+}
+
+/* ----------------------------------------header---------------------------------------- */
+header {
+  background-color: #f1f3ff;
+}
+.nav-pills .btn {
+  background-color: #5cb85f;
+}
+nav {
+  background-color: #f1f3ff;
+}
+.navbar-toggler-icon img {
+  width: 2vw;
+}
+.logo {
+  width: 8vw;
+  height: 2.5vw;
+  background-color: #0d28a6;
+}
+.nav-item a {
+  font-family: Helvetica;
+  color: black;
+}
+nav ul li .active {
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+}
+.cover {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f3ff;
+}
+.cover-text {
+  width: 100%;
+  font-family: helvetica;
+}
+.cover-img{
+  width: 50%;
+}
+.cover-img img{
+  width: 50vw;
+}
+.cover button {
+  background-color: #5cb85f !important;
+  border: 0;
+}
+/* ----------------------------------------end header---------------------------------------- */
+
+/*-----------------------------------------Search-------------------------------------------- */
+.search {
+  margin-top: -50px;
+  position: relative;
+}
+.button{
+  background-color: #5cb85f !important;
+  border: 0;
+}
+
+/*----------------------------------------Invoice------------------------------------------------ */
+.invoice-section .head {
+  background-color: #f1f3ff;
+  height: 100px;
+}
+
+.invoice-section .head .row-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.invoice-section .head .row-head a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.invoice-section .head .row-head p {
+  margin-left: 30px;
+}
+
+.invoice-section .head .row-head .list-menu {
+  text-align: right;
+}
+
+.invoice-section .head .row-head .list-menu li {
+  margin-right: 10px;
+  list-style: none;
+}
+
+.invoice-section .head .row-head .list-menu:hover {
+  background-color: #f1f3ff;
+}
+
+.invoice-section .head .row-content {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.invoice-section .head .row-content .content-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.invoice-section .head .row-content .content-description {
+  margin-top: -15px;
+  color: #acacac;
+}
+
+.invoice-section .head .row-content .box {
+  border: 1px solid #acacac;
+  border-radius: 5px;
+  height: 750px;
+}
+
+.invoice-section .head .row-content .box .row-invoice-download .btn-download {
+  background-color: #fff;
+  width: auto;
+  border: 2px solid blue;
+  color: blue;
+}
+/*# sourceMappingURL=Invoice.css.map */
+
+/* ----------------------------------------Content---------------------------------------- */
+
+/* ========Superiority======== */
+.superiority {
+  display: flex;
+  justify-content: space-between;
+  margin: 5vw;
+}
+.superiority div {
+  padding: 0 5vw 5vw 5vw;
+  font-family: helvetica;
+}
+.superiority div ul li {
+  list-style: none;
+  padding-top: 1vw;
+}
+.superiority div ul li img {
+  margin-right: 1vw;
+  width: 2vw;
+}
+.image img{
+  width: 34vw;
+}
+/* ========End Superiority======== */
+
+/* ========Services======== */
+.services {
+  font-family: helvetica;
+}
+.card {
+  border-radius: 0.5vw !important;
+  font-family: helvetica;
+}
+.card-body {
+  margin: 0.5vw 1vw 0.5vw 1vw;
+}
+.card-body img {
+  margin: 1vw 0 1vw 0;
+}
+/* ========End Services======== */
+
+/* ========Testimoni======== */
+.testimonial {
+  margin-top: 10vw;
+  font-family: helvetica;
+}
+.testimonial h4 {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.testi {
+  display: flex;
+  border: rgb(193, 193, 193);
+  border-radius: 0.8vw;
+  padding: 2vw;
+  background-color: #f1f3ff;
+  font-family: helvetica;
+  margin: 2vw;
+}
+.card-body-testi {
+  margin-right: 2vw;
+}
+.testi .card-body-testi img {
+  width: 8vw;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4vw 0 2vw;
+}
+.item {
+  display: flex;
+  position: absolute;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: relative !important;
+}
+.btn-n {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+.btn-next:hover {
+  opacity: 0;
+}
+.btn-prev:hover {
+  opacity: 0;
+}
+/* ========End Testimoni======== */
+
+/* ========Car Rental======== */
+.card-rental {
+  margin-top: 6vw;
+  padding: 4vw 0 4vw 0;
+  background: #0d28a6;
+  font-family: helvetica;
+  border-radius: 1vw;
+}
+.card-rental h5 {
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+  color: white;
+  margin-bottom: 2vw;
+}
+.card-rental p {
+  color: white;
+  align-items: center;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 4vw;
+}
+.card-rental div {
+  display: flex;
+  justify-content: center;
+}
+/* ========End Car Rental======== */
+
+/* ========FAQ======== */
+.accordion {
+  width: 60%;
+}
+.faq {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8vw;
+  font-family: helvetica;
+  margin-bottom: 10vw;
+}
+.faq div h6 {
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-bottom: 2vw;
+}
+.ask {
+  padding: 0.5vw;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  margin-bottom: 1vw;
+  border-color: #d4d4d4;
+}
+.ask div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ask div p {
+  margin-right: 15vw;
+  margin-top: 1vw;
+}
+/* ========End FAQ======== */
+
+/* ----------------------------------------End Content---------------------------------------- */
+
+/* ----------------------------------------Footer---------------------------------------- */
+.footer {
+  font-family: helvetica;
+}
+.footer div {
+  margin-bottom: 3vw;
+}
+/* ----------------------------------------End Footer---------------------------------------- */
+
+/* ========Navbar Toogler======== */
+
+/* Remove border from toggler */
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #e74c3c;
+  display: block;
+  transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar {
+  margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #777777;
+}
+@media screen and (max-width: 990px) {
+  .nav-pills {
+    display: block !important;
+  }
+}
+/* ========End Navbar Toogler======== */
+
+/* ----------------------------------------Responsive Design---------------------------------------- */
+@media screen and (max-width: 1024px) {
+  .col-sm-3 {
+    width: 50% !important;
+  }
+  .faq .accordion {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testi img {
+    width: 10vw !important;
+  }
+  .superiority {
+    display: block;
+  }
+  .superiority .image {
+    justify-content: center;
+    display: flex;
+    margin-left: -8vw;
+  }
+  .superiority .image img {
+    width: 40vw !important;
+  }
+  .faq {
+    display: block;
+  }
+  .faq .accordion {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cover-img {
+    display: none;
+  }
+  .col-sm-3 {
+    width: 100% !important;
+  }
+  .superiority {
+    display: block;
+  }
+  .superiority div {
+    padding: 0;
+  }
+  .superiority .image img {
+    margin-bottom: 5vw;
+    width: 50vw !important;
+  }
+  .superiority .image {
+    display: flex;
+    justify-content: center;
+  }
+  .superiority div ul li img {
+    width: 4vw !important;
+  }
+  .testi img {
+    width: 15vw !important;
+  }
+  .card-rental {
+    padding: 4vw 4vw 4vw 4vw;
+  }
+  .faq {
+    display: block;
+  }
+  .footer .row {
+    width: 50% !important;
+  }
+  .icon img {
+    width: 5vw;
+  }
+}
+/* ----------------------------------------End Responsive Design---------------------------------------- */
